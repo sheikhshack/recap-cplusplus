@@ -135,6 +135,71 @@ CMakeFiles/learningcplusplus.dir/virtualClasses.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learningcplusplus.dir/virtualClasses.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ironwalrus/CLionProjects/learningcplusplus/virtualClasses.cpp -o CMakeFiles/learningcplusplus.dir/virtualClasses.cpp.s
 
+CMakeFiles/learningcplusplus.dir/scopes.cpp.o: CMakeFiles/learningcplusplus.dir/flags.make
+CMakeFiles/learningcplusplus.dir/scopes.cpp.o: ../scopes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/learningcplusplus.dir/scopes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learningcplusplus.dir/scopes.cpp.o -c /home/ironwalrus/CLionProjects/learningcplusplus/scopes.cpp
+
+CMakeFiles/learningcplusplus.dir/scopes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learningcplusplus.dir/scopes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ironwalrus/CLionProjects/learningcplusplus/scopes.cpp > CMakeFiles/learningcplusplus.dir/scopes.cpp.i
+
+CMakeFiles/learningcplusplus.dir/scopes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learningcplusplus.dir/scopes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ironwalrus/CLionProjects/learningcplusplus/scopes.cpp -o CMakeFiles/learningcplusplus.dir/scopes.cpp.s
+
+CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.o: CMakeFiles/learningcplusplus.dir/flags.make
+CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.o: ../prototypesSimple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.o -c /home/ironwalrus/CLionProjects/learningcplusplus/prototypesSimple.cpp
+
+CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ironwalrus/CLionProjects/learningcplusplus/prototypesSimple.cpp > CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.i
+
+CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ironwalrus/CLionProjects/learningcplusplus/prototypesSimple.cpp -o CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.s
+
+CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.o: CMakeFiles/learningcplusplus.dir/flags.make
+CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.o: ../HeaderClasses/SimpleClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.o -c /home/ironwalrus/CLionProjects/learningcplusplus/HeaderClasses/SimpleClass.cpp
+
+CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ironwalrus/CLionProjects/learningcplusplus/HeaderClasses/SimpleClass.cpp > CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.i
+
+CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ironwalrus/CLionProjects/learningcplusplus/HeaderClasses/SimpleClass.cpp -o CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.s
+
+CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.o: CMakeFiles/learningcplusplus.dir/flags.make
+CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.o: ../HeaderClasses/SimpleClassTwo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.o -c /home/ironwalrus/CLionProjects/learningcplusplus/HeaderClasses/SimpleClassTwo.cpp
+
+CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ironwalrus/CLionProjects/learningcplusplus/HeaderClasses/SimpleClassTwo.cpp > CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.i
+
+CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ironwalrus/CLionProjects/learningcplusplus/HeaderClasses/SimpleClassTwo.cpp -o CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.s
+
+CMakeFiles/learningcplusplus.dir/friendship.cpp.o: CMakeFiles/learningcplusplus.dir/flags.make
+CMakeFiles/learningcplusplus.dir/friendship.cpp.o: ../friendship.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/learningcplusplus.dir/friendship.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learningcplusplus.dir/friendship.cpp.o -c /home/ironwalrus/CLionProjects/learningcplusplus/friendship.cpp
+
+CMakeFiles/learningcplusplus.dir/friendship.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learningcplusplus.dir/friendship.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ironwalrus/CLionProjects/learningcplusplus/friendship.cpp > CMakeFiles/learningcplusplus.dir/friendship.cpp.i
+
+CMakeFiles/learningcplusplus.dir/friendship.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learningcplusplus.dir/friendship.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ironwalrus/CLionProjects/learningcplusplus/friendship.cpp -o CMakeFiles/learningcplusplus.dir/friendship.cpp.s
+
 # Object files for target learningcplusplus
 learningcplusplus_OBJECTS = \
 "CMakeFiles/learningcplusplus.dir/main.cpp.o" \
@@ -142,7 +207,12 @@ learningcplusplus_OBJECTS = \
 "CMakeFiles/learningcplusplus.dir/filehandling.cpp.o" \
 "CMakeFiles/learningcplusplus.dir/refPointers.cpp.o" \
 "CMakeFiles/learningcplusplus.dir/basicClass.cpp.o" \
-"CMakeFiles/learningcplusplus.dir/virtualClasses.cpp.o"
+"CMakeFiles/learningcplusplus.dir/virtualClasses.cpp.o" \
+"CMakeFiles/learningcplusplus.dir/scopes.cpp.o" \
+"CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.o" \
+"CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.o" \
+"CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.o" \
+"CMakeFiles/learningcplusplus.dir/friendship.cpp.o"
 
 # External object files for target learningcplusplus
 learningcplusplus_EXTERNAL_OBJECTS =
@@ -153,9 +223,14 @@ learningcplusplus: CMakeFiles/learningcplusplus.dir/filehandling.cpp.o
 learningcplusplus: CMakeFiles/learningcplusplus.dir/refPointers.cpp.o
 learningcplusplus: CMakeFiles/learningcplusplus.dir/basicClass.cpp.o
 learningcplusplus: CMakeFiles/learningcplusplus.dir/virtualClasses.cpp.o
+learningcplusplus: CMakeFiles/learningcplusplus.dir/scopes.cpp.o
+learningcplusplus: CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.o
+learningcplusplus: CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.o
+learningcplusplus: CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.o
+learningcplusplus: CMakeFiles/learningcplusplus.dir/friendship.cpp.o
 learningcplusplus: CMakeFiles/learningcplusplus.dir/build.make
 learningcplusplus: CMakeFiles/learningcplusplus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable learningcplusplus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable learningcplusplus"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learningcplusplus.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

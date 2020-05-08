@@ -82,10 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/HeaderClasses/SimpleClass.cpp">
+			<Option target="learningcplusplus"/>
+		</Unit>
+		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/HeaderClasses/SimpleClass.h">
+			<Option target="learningcplusplus"/>
+		</Unit>
+		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/HeaderClasses/SimpleClassTwo.cpp">
+			<Option target="learningcplusplus"/>
+		</Unit>
+		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/HeaderClasses/SimpleClassTwo.h">
+			<Option target="learningcplusplus"/>
+		</Unit>
 		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/basicClass.cpp">
 			<Option target="learningcplusplus"/>
 		</Unit>
 		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/filehandling.cpp">
+			<Option target="learningcplusplus"/>
+		</Unit>
+		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/friendship.cpp">
 			<Option target="learningcplusplus"/>
 		</Unit>
 		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/functionPlaying.cpp">
@@ -94,7 +109,13 @@
 		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/main.cpp">
 			<Option target="learningcplusplus"/>
 		</Unit>
+		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/prototypesSimple.cpp">
+			<Option target="learningcplusplus"/>
+		</Unit>
 		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/refPointers.cpp">
+			<Option target="learningcplusplus"/>
+		</Unit>
+		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/scopes.cpp">
 			<Option target="learningcplusplus"/>
 		</Unit>
 		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/virtualClasses.cpp">

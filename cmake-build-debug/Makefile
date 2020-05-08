@@ -123,6 +123,60 @@ learningcplusplus/fast:
 	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/build
 .PHONY : learningcplusplus/fast
 
+HeaderClasses/SimpleClass.o: HeaderClasses/SimpleClass.cpp.o
+
+.PHONY : HeaderClasses/SimpleClass.o
+
+# target to build an object file
+HeaderClasses/SimpleClass.cpp.o:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.o
+.PHONY : HeaderClasses/SimpleClass.cpp.o
+
+HeaderClasses/SimpleClass.i: HeaderClasses/SimpleClass.cpp.i
+
+.PHONY : HeaderClasses/SimpleClass.i
+
+# target to preprocess a source file
+HeaderClasses/SimpleClass.cpp.i:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.i
+.PHONY : HeaderClasses/SimpleClass.cpp.i
+
+HeaderClasses/SimpleClass.s: HeaderClasses/SimpleClass.cpp.s
+
+.PHONY : HeaderClasses/SimpleClass.s
+
+# target to generate assembly for a file
+HeaderClasses/SimpleClass.cpp.s:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.s
+.PHONY : HeaderClasses/SimpleClass.cpp.s
+
+HeaderClasses/SimpleClassTwo.o: HeaderClasses/SimpleClassTwo.cpp.o
+
+.PHONY : HeaderClasses/SimpleClassTwo.o
+
+# target to build an object file
+HeaderClasses/SimpleClassTwo.cpp.o:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.o
+.PHONY : HeaderClasses/SimpleClassTwo.cpp.o
+
+HeaderClasses/SimpleClassTwo.i: HeaderClasses/SimpleClassTwo.cpp.i
+
+.PHONY : HeaderClasses/SimpleClassTwo.i
+
+# target to preprocess a source file
+HeaderClasses/SimpleClassTwo.cpp.i:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.i
+.PHONY : HeaderClasses/SimpleClassTwo.cpp.i
+
+HeaderClasses/SimpleClassTwo.s: HeaderClasses/SimpleClassTwo.cpp.s
+
+.PHONY : HeaderClasses/SimpleClassTwo.s
+
+# target to generate assembly for a file
+HeaderClasses/SimpleClassTwo.cpp.s:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.s
+.PHONY : HeaderClasses/SimpleClassTwo.cpp.s
+
 basicClass.o: basicClass.cpp.o
 
 .PHONY : basicClass.o
@@ -176,6 +230,33 @@ filehandling.s: filehandling.cpp.s
 filehandling.cpp.s:
 	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/filehandling.cpp.s
 .PHONY : filehandling.cpp.s
+
+friendship.o: friendship.cpp.o
+
+.PHONY : friendship.o
+
+# target to build an object file
+friendship.cpp.o:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/friendship.cpp.o
+.PHONY : friendship.cpp.o
+
+friendship.i: friendship.cpp.i
+
+.PHONY : friendship.i
+
+# target to preprocess a source file
+friendship.cpp.i:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/friendship.cpp.i
+.PHONY : friendship.cpp.i
+
+friendship.s: friendship.cpp.s
+
+.PHONY : friendship.s
+
+# target to generate assembly for a file
+friendship.cpp.s:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/friendship.cpp.s
+.PHONY : friendship.cpp.s
 
 functionPlaying.o: functionPlaying.cpp.o
 
@@ -231,6 +312,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+prototypesSimple.o: prototypesSimple.cpp.o
+
+.PHONY : prototypesSimple.o
+
+# target to build an object file
+prototypesSimple.cpp.o:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.o
+.PHONY : prototypesSimple.cpp.o
+
+prototypesSimple.i: prototypesSimple.cpp.i
+
+.PHONY : prototypesSimple.i
+
+# target to preprocess a source file
+prototypesSimple.cpp.i:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.i
+.PHONY : prototypesSimple.cpp.i
+
+prototypesSimple.s: prototypesSimple.cpp.s
+
+.PHONY : prototypesSimple.s
+
+# target to generate assembly for a file
+prototypesSimple.cpp.s:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.s
+.PHONY : prototypesSimple.cpp.s
+
 refPointers.o: refPointers.cpp.o
 
 .PHONY : refPointers.o
@@ -257,6 +365,33 @@ refPointers.s: refPointers.cpp.s
 refPointers.cpp.s:
 	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/refPointers.cpp.s
 .PHONY : refPointers.cpp.s
+
+scopes.o: scopes.cpp.o
+
+.PHONY : scopes.o
+
+# target to build an object file
+scopes.cpp.o:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/scopes.cpp.o
+.PHONY : scopes.cpp.o
+
+scopes.i: scopes.cpp.i
+
+.PHONY : scopes.i
+
+# target to preprocess a source file
+scopes.cpp.i:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/scopes.cpp.i
+.PHONY : scopes.cpp.i
+
+scopes.s: scopes.cpp.s
+
+.PHONY : scopes.s
+
+# target to generate assembly for a file
+scopes.cpp.s:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/scopes.cpp.s
+.PHONY : scopes.cpp.s
 
 virtualClasses.o: virtualClasses.cpp.o
 
@@ -294,21 +429,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... learningcplusplus"
+	@echo "... HeaderClasses/SimpleClass.o"
+	@echo "... HeaderClasses/SimpleClass.i"
+	@echo "... HeaderClasses/SimpleClass.s"
+	@echo "... HeaderClasses/SimpleClassTwo.o"
+	@echo "... HeaderClasses/SimpleClassTwo.i"
+	@echo "... HeaderClasses/SimpleClassTwo.s"
 	@echo "... basicClass.o"
 	@echo "... basicClass.i"
 	@echo "... basicClass.s"
 	@echo "... filehandling.o"
 	@echo "... filehandling.i"
 	@echo "... filehandling.s"
+	@echo "... friendship.o"
+	@echo "... friendship.i"
+	@echo "... friendship.s"
 	@echo "... functionPlaying.o"
 	@echo "... functionPlaying.i"
 	@echo "... functionPlaying.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... prototypesSimple.o"
+	@echo "... prototypesSimple.i"
+	@echo "... prototypesSimple.s"
 	@echo "... refPointers.o"
 	@echo "... refPointers.i"
 	@echo "... refPointers.s"
+	@echo "... scopes.o"
+	@echo "... scopes.i"
+	@echo "... scopes.s"
 	@echo "... virtualClasses.o"
 	@echo "... virtualClasses.i"
 	@echo "... virtualClasses.s"
