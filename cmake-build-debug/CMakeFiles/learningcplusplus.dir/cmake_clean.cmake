@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.o"
   "CMakeFiles/learningcplusplus.dir/refPointers.cpp.o"
   "CMakeFiles/learningcplusplus.dir/scopes.cpp.o"
+  "CMakeFiles/learningcplusplus.dir/templateClasses.cpp.o"
+  "CMakeFiles/learningcplusplus.dir/templateMethods.cpp.o"
   "CMakeFiles/learningcplusplus.dir/virtualClasses.cpp.o"
   "learningcplusplus"
   "learningcplusplus.pdb"

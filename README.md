@@ -1,6 +1,6 @@
-## Memory of a Goldfish
+## Memory Retention of a Goldfish
 
-Focused particularly for Arduino later. Guide inspired by Buckeys! 
+Focused particularly for Arduino later. Guide inspired by Buckeys, great guy! 
 
 ### Scope in C++
 
@@ -153,3 +153,57 @@ Also recall the following:
 ### Virtual Classes
 
 Almost the same as Java's `abstract`. Please do refer to `virtualClasses.cpp` for the deeds. 
+
+To force a virtual method to be implemented by subclasses, do the following inside the parent class:
+
+```c++
+virtual void someMethod() = 0; 
+```
+
+### Inheritance
+
+Pretty straight forward, here's a snippet of `Dog` extending `Animal`:
+
+```c++
+class Dog : public Animal{
+private:
+    string sound = "woof";
+
+public:
+    // new Method in Dog Class
+    void getSound(){cout << sound << endl;}
+
+    // new constructor because of new method
+    Dog(int height, int weight, string name, string sound);
+    // default constructor that calls parent superclass's default constructor
+    Dog() : Animal(){};
+
+    void toString();
+};
+```
+
+
+### Templates (Don't really see them in Arduino common libs but meh)
+
+So the idea here is making your methods/classes more veratile to different type of inputs. Not really common practice for Arduino but huh here goes.
+
+**_Sample with method_** (refer to `templateMethods.cpp` for more)
+
+```c++
+template <class someType>
+someType addTogether(someType a, someType b){
+    return a + b;
+}
+
+int main(){
+    int x =7, y= 43, z;
+    z = addTogether(x, y);
+    // Now if I change the types, will still work great
+    float a=7.7, b=4.56, c;
+    c = addTogether(a,b);
+}
+```
+
+**_Sample with Class_**
+
+This part is quite extensive. The gist of it is to have similar behavior but for classes, and allows for specialisation based on variable type utilised. This is by far the weirdest thing in C++. Refer to `templateClasses.cpp`

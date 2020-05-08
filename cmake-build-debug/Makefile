@@ -393,6 +393,60 @@ scopes.cpp.s:
 	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/scopes.cpp.s
 .PHONY : scopes.cpp.s
 
+templateClasses.o: templateClasses.cpp.o
+
+.PHONY : templateClasses.o
+
+# target to build an object file
+templateClasses.cpp.o:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/templateClasses.cpp.o
+.PHONY : templateClasses.cpp.o
+
+templateClasses.i: templateClasses.cpp.i
+
+.PHONY : templateClasses.i
+
+# target to preprocess a source file
+templateClasses.cpp.i:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/templateClasses.cpp.i
+.PHONY : templateClasses.cpp.i
+
+templateClasses.s: templateClasses.cpp.s
+
+.PHONY : templateClasses.s
+
+# target to generate assembly for a file
+templateClasses.cpp.s:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/templateClasses.cpp.s
+.PHONY : templateClasses.cpp.s
+
+templateMethods.o: templateMethods.cpp.o
+
+.PHONY : templateMethods.o
+
+# target to build an object file
+templateMethods.cpp.o:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/templateMethods.cpp.o
+.PHONY : templateMethods.cpp.o
+
+templateMethods.i: templateMethods.cpp.i
+
+.PHONY : templateMethods.i
+
+# target to preprocess a source file
+templateMethods.cpp.i:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/templateMethods.cpp.i
+.PHONY : templateMethods.cpp.i
+
+templateMethods.s: templateMethods.cpp.s
+
+.PHONY : templateMethods.s
+
+# target to generate assembly for a file
+templateMethods.cpp.s:
+	$(MAKE) -f CMakeFiles/learningcplusplus.dir/build.make CMakeFiles/learningcplusplus.dir/templateMethods.cpp.s
+.PHONY : templateMethods.cpp.s
+
 virtualClasses.o: virtualClasses.cpp.o
 
 .PHONY : virtualClasses.o
@@ -459,6 +513,12 @@ help:
 	@echo "... scopes.o"
 	@echo "... scopes.i"
 	@echo "... scopes.s"
+	@echo "... templateClasses.o"
+	@echo "... templateClasses.i"
+	@echo "... templateClasses.s"
+	@echo "... templateMethods.o"
+	@echo "... templateMethods.i"
+	@echo "... templateMethods.s"
 	@echo "... virtualClasses.o"
 	@echo "... virtualClasses.i"
 	@echo "... virtualClasses.s"

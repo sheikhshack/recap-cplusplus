@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ironwalrus/CLionProjects/learningcplusplus/prototypesSimple.cpp" "/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.o"
   "/home/ironwalrus/CLionProjects/learningcplusplus/refPointers.cpp" "/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles/learningcplusplus.dir/refPointers.cpp.o"
   "/home/ironwalrus/CLionProjects/learningcplusplus/scopes.cpp" "/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles/learningcplusplus.dir/scopes.cpp.o"
+  "/home/ironwalrus/CLionProjects/learningcplusplus/templateClasses.cpp" "/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles/learningcplusplus.dir/templateClasses.cpp.o"
+  "/home/ironwalrus/CLionProjects/learningcplusplus/templateMethods.cpp" "/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles/learningcplusplus.dir/templateMethods.cpp.o"
   "/home/ironwalrus/CLionProjects/learningcplusplus/virtualClasses.cpp" "/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles/learningcplusplus.dir/virtualClasses.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

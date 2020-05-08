@@ -200,6 +200,32 @@ CMakeFiles/learningcplusplus.dir/friendship.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learningcplusplus.dir/friendship.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ironwalrus/CLionProjects/learningcplusplus/friendship.cpp -o CMakeFiles/learningcplusplus.dir/friendship.cpp.s
 
+CMakeFiles/learningcplusplus.dir/templateMethods.cpp.o: CMakeFiles/learningcplusplus.dir/flags.make
+CMakeFiles/learningcplusplus.dir/templateMethods.cpp.o: ../templateMethods.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/learningcplusplus.dir/templateMethods.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learningcplusplus.dir/templateMethods.cpp.o -c /home/ironwalrus/CLionProjects/learningcplusplus/templateMethods.cpp
+
+CMakeFiles/learningcplusplus.dir/templateMethods.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learningcplusplus.dir/templateMethods.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ironwalrus/CLionProjects/learningcplusplus/templateMethods.cpp > CMakeFiles/learningcplusplus.dir/templateMethods.cpp.i
+
+CMakeFiles/learningcplusplus.dir/templateMethods.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learningcplusplus.dir/templateMethods.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ironwalrus/CLionProjects/learningcplusplus/templateMethods.cpp -o CMakeFiles/learningcplusplus.dir/templateMethods.cpp.s
+
+CMakeFiles/learningcplusplus.dir/templateClasses.cpp.o: CMakeFiles/learningcplusplus.dir/flags.make
+CMakeFiles/learningcplusplus.dir/templateClasses.cpp.o: ../templateClasses.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/learningcplusplus.dir/templateClasses.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learningcplusplus.dir/templateClasses.cpp.o -c /home/ironwalrus/CLionProjects/learningcplusplus/templateClasses.cpp
+
+CMakeFiles/learningcplusplus.dir/templateClasses.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learningcplusplus.dir/templateClasses.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ironwalrus/CLionProjects/learningcplusplus/templateClasses.cpp > CMakeFiles/learningcplusplus.dir/templateClasses.cpp.i
+
+CMakeFiles/learningcplusplus.dir/templateClasses.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learningcplusplus.dir/templateClasses.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ironwalrus/CLionProjects/learningcplusplus/templateClasses.cpp -o CMakeFiles/learningcplusplus.dir/templateClasses.cpp.s
+
 # Object files for target learningcplusplus
 learningcplusplus_OBJECTS = \
 "CMakeFiles/learningcplusplus.dir/main.cpp.o" \
@@ -212,7 +238,9 @@ learningcplusplus_OBJECTS = \
 "CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.o" \
 "CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.o" \
 "CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.o" \
-"CMakeFiles/learningcplusplus.dir/friendship.cpp.o"
+"CMakeFiles/learningcplusplus.dir/friendship.cpp.o" \
+"CMakeFiles/learningcplusplus.dir/templateMethods.cpp.o" \
+"CMakeFiles/learningcplusplus.dir/templateClasses.cpp.o"
 
 # External object files for target learningcplusplus
 learningcplusplus_EXTERNAL_OBJECTS =
@@ -228,9 +256,11 @@ learningcplusplus: CMakeFiles/learningcplusplus.dir/prototypesSimple.cpp.o
 learningcplusplus: CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClass.cpp.o
 learningcplusplus: CMakeFiles/learningcplusplus.dir/HeaderClasses/SimpleClassTwo.cpp.o
 learningcplusplus: CMakeFiles/learningcplusplus.dir/friendship.cpp.o
+learningcplusplus: CMakeFiles/learningcplusplus.dir/templateMethods.cpp.o
+learningcplusplus: CMakeFiles/learningcplusplus.dir/templateClasses.cpp.o
 learningcplusplus: CMakeFiles/learningcplusplus.dir/build.make
 learningcplusplus: CMakeFiles/learningcplusplus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable learningcplusplus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ironwalrus/CLionProjects/learningcplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable learningcplusplus"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learningcplusplus.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -118,6 +118,12 @@
 		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/scopes.cpp">
 			<Option target="learningcplusplus"/>
 		</Unit>
+		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/templateClasses.cpp">
+			<Option target="learningcplusplus"/>
+		</Unit>
+		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/templateMethods.cpp">
+			<Option target="learningcplusplus"/>
+		</Unit>
 		<Unit filename="/home/ironwalrus/CLionProjects/learningcplusplus/virtualClasses.cpp">
 			<Option target="learningcplusplus"/>
 		</Unit>
